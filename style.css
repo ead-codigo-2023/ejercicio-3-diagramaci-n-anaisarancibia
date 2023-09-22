@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    color: gray;
+    font-size: 60px;
+}
+h1{
+    margin-bottom: 0;
+}
+h2{
+    margin-top: 0;
+}
+
+h3{
+    font-size: 20px;
+}
+
+.summary{
+    text-align: center;
+}
+
+.main.supporting{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    padding: 40px;
+    gap: 20px;
+}
+
+.preamble, 
+.explanation, 
+.participation,
+.benefits{
+    background-color: rgb(85, 133, 85);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.requirements{
+    display: grid;
+    text-align: left;
+    grid-column: 1/5;
+}
+
+footer{
+    text-align: center;
+    grid-column: 1/5;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: left;
+    padding: 40px;
+    gap: 20px;
+}
+
+.design-selection{
+    display: grid;
+    text-align: left;
+    grid-column: 1/2;
+}
+.design-archives{
+    display: grid;
+    text-align: left;
+    grid-column: 2/3;
+}
+.zen-resources{
+    display: grid;
+    text-align: left;
+    grid-column: 3/4;
+}
+.design-selection, 
+.design-archives, 
+.zen-resources{
+    background-color: rgb(177, 177, 177);
+    padding: 20px;
+    border-radius: 20px;
+}
